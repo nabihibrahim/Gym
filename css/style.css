@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:url(../images/body.png) repeat}
+.slide{ width:100%; padding-top:50px; border-bottom:3px solid #CC0616}
+.top{ background:linear-gradient( -90deg ,#231626 , #3B213F); border-bottom: 2px solid #8C6D83; border-top: 2px solid #8C6D83;}
+.top h1 {
+	font-size: 50px; font-family: asset,sans-serif; color: rgb(200,200,200); text-align: right;
+	margin: 4px 45px 0px 0px;  padding: 20px 10px 10px;
+	text-shadow: 2px 2px 1px rgba(0,0,0,0.65);}
+.top p{font-size:14px; font-family:Georgia ; color:#76c3d2; text-align:right; margin-right:60px }
+.bottom h1{font:34px Georgia; color: #3A203F;margin: 15px 0px 0px;
+	text-shadow: 1px 1px 1px #000;}
+.bottom p{font: 14px Georgia;color: #211426; margin: 10px 0px 0px; text-align:justify}
+.bottom a{float: right;font-family: Georgia; color: #D9ECE1;text-decoration: none;
+	padding: 5px 30px;margin-top: 7px; background-color:#231626;border-radius: 10px; transition:all 1s}
+.bottom a:hover{ background-color:#fff; color:#03094E; border:2px #000 solid}
+article{ border-radius:0px 0px 30px 30px; background:linear-gradient( -90deg ,#DAEDE2 , #75C1D1)}
+.side{font: 17px Georgia; color: #323444;padding: 10px 10px 75px; 
+	background:linear-gradient( -90deg ,#DAEDE2 , #75C1D1);
+	border-radius: 0px 0px 100px 0px;}	
+.slide h2{font: 20px Georgia;color: #BFB28D;text-shadow: 1px 1px #594B24;margin-bottom: 20px;}	
+.side ul {list-style: square;}
+.side p {font: 40px Georgia;color: #BFB28C;background-color:#231626;
+	margin: 50px 0px 40px;padding: 15px 25px 30px 15px;border-radius: 20px;}
+.side p:hover{background-color:#fff; color:#03094E; border:2px #000 solid}
+
+footer {background: #231626;  height: 50px;clear: both;}
+footer p {font-size:16px;color: #F2D8C0; float:left;padding-left: 20px; line-height:50px}
+footer .social { line-height:50px}	
+
+@media(max-width:1200px){
+	.img{ display:none}
+	}	
+@media(max-width:630px){
+	section{ padding:10px}
+	}	
+@media(max-width:490px){
+	.slide{ display:none}
+	.top{ padding-top:30px}
+	}	
+.navbar .nav>li>a{
+	text-shadow: 1px 1px #8f8f8f;
+	color: #dce7ef;
+	
+	
+	text-align: center;
+	transition: background 0.5s ease;
+	-moz-transition: background 0.5s ease;
+	-webkit-transition: background 0.5s ease;
+	-o-transition: background 0.5s ease;
+	-ms-transition: background 0.5s ease;
+}
+.navbar .nav>li>a:hover{
+	color: #1c3747;
+	background: #000000;
+}	
+.navbar .nav>.active>a, .navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus{
+	color: #1c3747;
+	background: #000000;
+	box-shadow: none;
+}
+form {font: 16px Georgia;color: #211426;}
